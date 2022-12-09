@@ -1,4 +1,4 @@
-# terraform-google-network-data
+# terraform-google-network-info
 
 A helper data module to get network info on GCP.
 
