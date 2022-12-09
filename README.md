@@ -14,6 +14,9 @@ module "network_info" {
   source          = "github.com/andreswebs/terraform-google-network-info"
   project_network = "example-network-name"
 }
+
+# use:
+# module.network_info.subnetwork[var.region]
 ```
 
 
@@ -32,8 +35,8 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_subnetwork_cidr_list"></a> [subnetwork\_cidr\_list](#output\_subnetwork\_cidr\_list) | List of subnetwork CIDR ranges |
-| <a name="output_subnetwork_region_map"></a> [subnetwork\_region\_map](#output\_subnetwork\_region\_map) | Map of GCP region to subnetwork |
+| <a name="output_subnetwork"></a> [subnetwork](#output\_subnetwork) | Map of GCP region to subnetwork |
+| <a name="output_subnetwork_cidr"></a> [subnetwork\_cidr](#output\_subnetwork\_cidr) | List of subnetwork CIDR ranges |
 
 ## Providers
 

@@ -1,9 +1,9 @@
-output "subnetwork_cidr_list" {
+output "subnetwork_cidr" {
   value       = local.subnetwork_cidr_list
   description = "List of subnetwork CIDR ranges"
 }
 
-output "subnetwork_region_map" {
+output "subnetwork" {
   value       = local.subnetwork_region_map
   description = "Map of GCP region to subnetwork"
 }
