@@ -35,6 +35,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_network"></a> [network](#output\_network) | The `data.google_compute_network` resource |
 | <a name="output_subnetwork"></a> [subnetwork](#output\_subnetwork) | Map of GCP region to subnetwork |
 | <a name="output_subnetwork_cidr"></a> [subnetwork\_cidr](#output\_subnetwork\_cidr) | List of subnetwork CIDR ranges |
 

@@ -7,3 +7,8 @@ output "subnetwork" {
   value       = local.subnetwork_region_map
   description = "Map of GCP region to subnetwork"
 }
+
+output "network" {
+  value       = data.google_compute_network.this
+  description = "The `data.google_compute_network` resource"
+}
