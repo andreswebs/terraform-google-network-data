@@ -25,7 +25,7 @@ module "network_info" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_project_network"></a> [project\_network](#input\_project\_network) | Name of the project network to inspect | `string` | `"default"` | no |
+| <a name="input_network"></a> [network](#input\_network) | Name of the project network to inspect | `string` | `"default"` | no |
 
 ## Modules
 

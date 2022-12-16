@@ -1,5 +1,5 @@
 data "google_compute_network" "this" {
-  name = var.project_network
+  name = var.network
 }
 
 locals {
